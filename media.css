@@ -96,6 +96,14 @@
     .img_gallery {     
         margin-bottom: 10px;
     }
+    .skills{
+        display: grid;
+        grid-column: 1/2;
+    }
+    .photo{
+        display: grid;
+        grid-column: 1/2;
+    }
 }
 
 @media screen and (max-width: 320px) {
