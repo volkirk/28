@@ -1,0 +1,194 @@
+@media screen and (max-width: 576px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 576px));
+        /*grid-template-columns: 1fr;*/
+        grid-template-rows: auto;
+        max-width: 576px;
+        position: relative;
+        grid-column: 1 / 2; 
+        height: 100vh;
+        grid-gap: 0;
+        grid-template-areas:
+        "logo"
+        "menu"
+        "about_me"
+        "project"
+        "skills"
+        "photo"
+        "work"
+        "task"
+        "micro"
+        "form"
+        "copyright"
+        "social";
+        margin: 0 auto;
+        
+    }
+    .h1, h1 {
+        font-size: 1.5rem;
+    }  
+    .h2, h2 {
+        font-size: 1rem;
+    }
+    .logo,
+    .menu {
+        grid-row: 1 / 2;
+    }
+    .img {
+        grid-row: 3 / 4;
+    }
+    .design {
+        grid-row: 4 / 5;
+   }
+    .text {
+        grid-row: 3 / 5;
+        background: transparent;
+    }
+    .about_me {
+        background: transparent;
+        grid-row: 7 / 8;
+    }
+    .project {
+        grid-row: 8 / 9;
+    }
+    .logo,
+    .button_write {
+        margin-left: 20px;
+    }
+    .nav_menu {
+        display: block;
+        margin-top: 50px;
+    }
+    .menu_logo {
+        background: transparent;
+    }
+    .menu_logo,
+    .logo,
+    .menu,
+    .present,
+    .img,
+    .about_me,
+    .design,
+    .text,
+    .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1 / 2;
+    }
+    .design p,
+    .design h1,
+    .text h2,
+    .text p  {
+        width: auto;
+        grid-column: 1 / 2;
+        text-align: justify;
+        padding-left: 10px;
+    }
+    .design {
+        margin: 0;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        width: 100%;  
+        justify-content: center;
+    }
+    .img_gallery {     
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .grid-container {
+        display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(320px, 576px));
+       /* grid-template-columns: 1fr;*/
+        grid-template-rows: auto;
+        max-width: 320px;
+        position: relative;
+        grid-column: 1 / 2; 
+        height: 100vh;
+        grid-gap: 0;
+        grid-template-areas:
+        "logo"
+        "menu"
+        "about_me"
+        "project"
+        "skills"
+        "photo"
+        "work"
+        "task"
+        "micro"
+        "form"
+        "copyright"
+        "social";
+        margin: 0 auto;
+        
+    }
+    .h1, h1 {
+        font-size: 1.5rem;
+    }  
+    .h2, h2 {
+        font-size: 1rem;
+    }
+    .logo,
+    .menu {
+        grid-row: 1 / 2;
+    }
+    .img {
+        grid-row: 3 / 4;
+    }
+    .design {
+        grid-row: 4 / 5;
+   }
+    .text {
+        grid-row: 3 / 5;
+        background: transparent;
+    }
+    .project {
+        grid-row: 8 / 9;
+    }
+    .about_me {
+        background: transparent;
+        grid-row: 7 / 8;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .nav_menu {
+        display: block;
+        margin-top: 50px;
+    }
+    .menu_logo,
+    .logo,
+    .menu,
+    .present,
+    .img,
+    .about_me,
+    .design,
+    .text,
+    .project {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1 / 2;
+    }
+    .design p,
+    .design h1,
+    .text h2,
+    .text p  {
+        grid-column: 1 / 2;
+        text-align: center !important;
+        padding-left: 10px;
+    }
+    .design {
+        margin: 0;
+    }
+    .gallery {
+        flex-wrap: wrap;
+        width: 100%;  
+        justify-content: stretch;
+    }
+    .img_gallery {     
+        margin-bottom: 10px;
+    }
+}

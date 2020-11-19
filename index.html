@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item menu_logo">
+            <div class="logo"> <img src="img/WD.png" alt="Grid"> </div>
+            <div class="menu">
+                <ul class="nav_menu">
+                    <li class="menu__list"><a href="#" class="menu__link"> ГЛАВНАЯ</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link"> ОБ АВТОРЕ</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link"> РАБОТЫ</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link"> ПРОЦЕСС</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link"> КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+            <div class="present">
+                <div class="img"> <img src="img/Frame.png" alt="Grid"> </div>
+                <div class="design">
+                    <h1>Дизайн и верстка</h1>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                    <button class="button button_write">Написать мне</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item about_me">
+            <div class="text">
+                <h2> Обо мне </h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+            </div>
+        </div>
+        <div class="grid-item project">
+            <div class="gallery">
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+                <img class="col-1 img_gallery" src="img/project.png" alt="Bootstrap">
+                <p class="col-1 p_project">40+ проектов</p>
+            </div>
+        </div>
+        <div class="grid-item myskills">
+            <div class="skills">
+                <h2> Мои навыки</h2>
+                <p>Adobe Photoshop </p><br>
+                <progress max="100" value="90" id="PS"></progress>
+                <br>
+                <p>HTML </p> <br>
+                <progress max="100" value="80"></progress>
+                <p>CSS</p>
+                <progress max="100" value="70"></progress>
+            </div>
+            <div class="photo">
+                <img src="img/face.png" width="575" height="450" alt="face">
+            </div>
+        </div>
+        <div class="grid-items work">
+            <div class="mywork">
+                <h2>Как я работаю</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
+            </div>
+            <div class="video">
+                <iframe width="1100" height="600" src="https://www.youtube.com/embed/HJA92LQrsvw" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="grid-items task">
+            <img src="img/Rectangle 7.jpg" width="100%" height="100%" alt="taskboard">
+            <div class="photobg"> <span id="eye"></span>
+                <div class="photofg"></div>
+                <!-- <img src="img/laptop.png" width="100%" height="100%" alt="laptop" > -->
+            </div>
+            <img src="img/Rectangle 7.jpg" width="100%" height="100%" alt="taskboard">
+            <img src="img/laptop.png" width="100%" height="100%" alt="laptop">
+            <img src="img/laptop.png" width="100%" height="100%" alt="laptop">
+            <img src="img/Rectangle 7.jpg" width="100%" height="100%" alt="taskboard">
+            <img src="img/laptop.png" width="100%" height="100%" alt="laptop">
+            <img src="img/Rectangle 7.jpg" width="100%" height="100%" alt="taskboard">
+        </div>
+        <div class="grid-item micro">
+            <div class="microsoft">
+                <img src="img/micro.png" alt="mirco">
+                <img src="img/micro.png" alt="mirco">
+                <img src="img/micro.png" alt="mirco">
+                <img src="img/micro.png" alt="mirco">
+            </div>
+        </div>
+        <div class="grid-item form">
+            <div><h2>Хотите веб-сайт?</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов <br> на латинице с начала XVI века.</p>
+            </div>
+            <div class="input">
+                <input type="text" id="name" placeholder="Ваше Имя" size="40px" width="100px">
+                <input type="text" id="email" placeholder="Ваш e-mail"> <br>
+                <input type="text" id="message" placeholder="Сообщение" height="10"><br>
+                <button class="button-bot button_write">Отправить</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="copyright">
+            <h2>Иванов Иван</h2><br>
+            <p>(c)2018. Все права защищены.</p>
+            </div>
+            <div class="vk">
+                <a href="#"><img src="img/3007528.jpg" width="80px" height="80px" alt="vk"></a>
+                <a href="#"><img src="img/3007528.jpg" width="80px" height="80px" alt="vk"></a>
+                <a href="#"><img src="img/3007528.jpg" width="80px" height="80px" alt="vk"></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
